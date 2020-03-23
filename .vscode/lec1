@@ -1,0 +1,39 @@
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        // write your code here.
+    // int sum = 0;
+    // int num;
+    // Scanner scn = new Scanner(System.in);
+    // num = scn.nextInt();
+    // // for(int i = 1;i<=num; i++){
+    // //     sum+=i;
+    // // }
+    
+    // // System.out.println(sum);
+    
+    // int ans ;
+    // ans= num*(num+1)/2;
+    // System.out.println(ans);
+    // }
+    
+    int n,a=0,b=1,k,stop;
+      Scanner scn = new Scanner(System.in);
+      n = scn.nextInt();
+      stop = scn.nextInt();
+     
+      for(int i =1;i<=n;i++){
+          if(a>stop){break;}
+          System.out.println(a);
+          
+          k= a+b;
+          
+          a=b;
+          b=k;
+      }
+    
+    }   
+}
